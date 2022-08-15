@@ -1,3 +1,4 @@
 server:
   port: 8888
-spring:  application:    name: big-config-server  profiles:    active:    - native
+spring:  application:    name: big-config-server  cloud:    config:      server:        git:          uri: https://github.com/GabrielCS02/big-config-server
+          search-paths:          - 'greeting-service*'
