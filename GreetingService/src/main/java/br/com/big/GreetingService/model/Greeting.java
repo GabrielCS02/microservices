@@ -1,4 +1,4 @@
-package br.com.big.GreetingService;
+package br.com.big.GreetingService.model;
 
 public class Greeting {
 	
